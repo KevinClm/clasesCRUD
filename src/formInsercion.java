@@ -40,6 +40,7 @@ public class formInsercion {
             @Override
             public void actionPerformed(ActionEvent e) {
                 insertarDatos datos = new insertarDatos();
+                datos.ingresoDatos(nombreTField.getText(), cedulaTField.getText(), Integer.parseInt(nota1TField.getText()), Integer.parseInt(nota2TField.getText()));
             }
         });
     }
